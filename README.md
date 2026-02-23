@@ -798,4 +798,4 @@ Feel free to contact me on <a href="https://twitter.com/p1ngul1n0">Twitter</a>
 
 ## Stack
 
-[![Stack](https://skillicons.dev/icons?i=py,flask,docker,linux,dotnet,wordpress,git&theme=dark)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=py,flask,docker,linux&theme=dark)](https://skillicons.dev)
