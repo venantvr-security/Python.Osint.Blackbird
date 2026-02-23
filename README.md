@@ -1,6 +1,6 @@
 # Blackbird
 
-### An OSINT tool to search fast for accounts by username across 574 sites.
+## An OSINT tool to search fast for accounts by username across 574 sites.
 > The Lockheed SR-71 "Blackbird" is a long-range, high-altitude, Mach 3+ strategic reconnaissance aircraft developed and manufactured by the American aerospace company Lockheed Corporation.
 
 <img alt="blackbird-logo" align="center" src="https://raw.githubusercontent.com/p1ngul1n0/badges/main/badges/20.png">
@@ -23,7 +23,7 @@ programs is not P1ngul1n0's responsibility.
 
 ## Setup
 
-#### Clone the repository
+### Clone the repository
 ```shell
 git clone https://github.com/p1ngul1n0/blackbird
 cd blackbird
@@ -36,7 +36,7 @@ $ pip install -r requirements.txt
 
 ## Usage
 
-#### Search by username
+### Search by username
 ```shell
 $ python blackbird.py -u username
 ```
@@ -66,7 +66,7 @@ $ python blackbird.py -u crash --show-all
 
 ## Docker
 Blackbird can also be used with Docker.
-#### Pull Image
+### Pull Image
 ```
 docker pull p1ngul1n0/blackbird:v2
 ```
@@ -76,7 +76,7 @@ docker run -p 9797:9797 p1ngul1n0/blackbird:v2 "--web"
 ```
 
 ## Supported Social Networks <a name="social-networks"></a> ![](https://img.shields.io/badge/574--red)
-#### Most of the sites on this list were obtained through the incredible <a href="https://github.com/WebBreacher/WhatsMyName">@whatsmynameproj</a> project, don't forget to visit and follow <a href="https://twitter.com/whatsmynameproj">them</a> . 🤟
+### Most of the sites on this list were obtained through the incredible <a href="https://github.com/WebBreacher/WhatsMyName">@whatsmynameproj</a> project, don't forget to visit and follow <a href="https://twitter.com/whatsmynameproj">them</a> . 🤟
 <details>
 <summary></summary>
   
@@ -682,7 +682,7 @@ Blackbird uses JSON as a template to store and read data.
 
 The <a href="https://github.com/p1ngul1n0/blackbird/blob/main/data.json">data.json</a> file store all sites that blackbird verify.
 
-#### Params
+### Params
 - app - Site name
 - url
 - valid - Python expression that returns True when user exists
